@@ -1,0 +1,33 @@
+.whoWeAre {
+    background-color: #93BFB7;
+    border-radius: 5px;
+    padding: 1.5rem;
+    margin-top: 2rem;
+}
+
+.ourCommitment {
+    background-color: #82B6AD ;
+    border-radius: 5px;
+    padding: 1.5rem;
+    margin-top: 2rem;
+}
+
+.costume-container{
+     border-radius: 10px;
+}
+
+@media screen and (max-width:1024px) {
+   .costume-container{
+    flex-direction: column;
+    background-color: none;
+   }
+
+   .whoWeAre{
+    width: 100%;
+   }
+
+   .ourCommitment{
+    width: 100%;
+    margin-top: 2rem;
+   }
+}
